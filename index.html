@@ -1,0 +1,17 @@
+syntax on
+highlight StatusLine guifg=SlateBlue guibg=Yellow
+highlight StatusLineNC guifg=Gray guibg=White
+
+set encoding=utf-8
+set fileencodings=utf-8,gbk
+set expandtab
+set ignorecase
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set smartindent
+set nu
+set hls
+
+augroup filetype
+  autocmd! BufRead,BufNewFile BUILD set filetype=blade
